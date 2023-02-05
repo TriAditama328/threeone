@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 10px 0;
+    background-color: #000;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fcf6f6;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #000;
+}
+header ul{
+    
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+}
+header ul li a:hover{
+    background-color: #000;
+    color: #fcf6f6;
+}
+.active{
+    border: #000;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);  
+}
+.gambar{
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+}
+section h2{
+    color: hsla(0, 50%, 98%, 0.247);
+    padding: 40px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tengah{
+    display: center;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 80%;
+
+}
+.img-card{
+    max-width: 450px;
+    max-height: 450px;
+    overflow: hidden;
+justify-content: center;
+    
+}
+.flex{
+    display: flex;
+}
+.jdl{
+    color: #000;
+}
+.copy{
+    width: 100%;
+    background-color: #000;
+    padding: 5px 5px;
+    color: #fcf6f6;
+    display: inline-block;
+}

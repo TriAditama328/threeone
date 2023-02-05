@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 10px 0;
+    background-color: #fcf6f6;
+}
+.about{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.medsos ul li{
+    display: inline-block;
+    color: black  ;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #fcf6f6;
+}
+header ul{
+    
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: #fcf6f6;
+}
+header ul li a:hover{
+    background-color: #fcf6f6;
+    color: #000;
+}
+.active{
+    background-color: #000;
+    color: #fcf6f6;  
+}
+.banner{
+    height: 60vh;
+    text-align: center;
+    background-image: url(../img/bng.jpg);
+    background-size: cover; 
+}
+section h2{
+    color: #fcf6f63f;
+    padding: 100px 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lucida Handwriting;
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: o;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(6, 6, 6, 0.409);
+}
+section h3{
+    text-align: center;
+    padding: 30px 0;
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fcf6f6;
+}
+.flex-bg{
+    display: flex;
+}
+
